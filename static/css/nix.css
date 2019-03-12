@@ -76,24 +76,46 @@ i {
 
 .post-link {
 	float: left;
+	font-size: 25pt;
+	font-family: "PT Serif", serif;
+	font-weight: 1000;
+}
+
+.post-link a {
+    color: black;
+}
+
+#post-title {
+    font-size: 25pt;
+    font-family: "PT Serif", serif;
+    font-weight: 1000;
+}
+
+.post-subtitle {
 }
 
 .post-date {
 	float: right;
+	width: 100%;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	text-align: right;
+	font-size: 16pt;
 }
 
 .post-header {
-	background-color: #F5F5F5;
+    position: relative;
+	/*background-color: #F5F5F5;*/
 	overflow: hidden;
-	padding: 0 5px 0 5px;
 }
 
-.post-summary, .post-content{
-	clear: both;
+.post-summary, .post-content {
+	font-family: "PT Serif", serif;
+	font-size: 20pt;
 }
 
 .post-summary {
-	padding: 0 5px 0 5px;
+    font
 }
 
 .post-list-footer {
@@ -103,6 +125,9 @@ i {
 #post-list {
 	list-style: none;
 	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 5%;
 }
 
 .post-list-item {
