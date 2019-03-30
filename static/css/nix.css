@@ -76,7 +76,7 @@ i {
 
 .post-link {
 	float: left;
-	font-size: 25pt;
+	font-size: 20pt;
 	font-family: "PT Serif", serif;
 	font-weight: 1000;
 }
@@ -86,7 +86,7 @@ i {
 }
 
 #post-title {
-    font-size: 25pt;
+    font-size: 30pt;
     font-family: "PT Serif", serif;
     font-weight: 1000;
 }
@@ -105,17 +105,13 @@ i {
 
 .post-header {
     position: relative;
-	/*background-color: #F5F5F5;*/
+	background-color: #F5F5F5;
 	overflow: hidden;
 }
 
 .post-summary, .post-content {
 	font-family: "PT Serif", serif;
-	font-size: 20pt;
-}
-
-.post-summary {
-    font
+	font-size: 16pt;
 }
 
 .post-list-footer {
