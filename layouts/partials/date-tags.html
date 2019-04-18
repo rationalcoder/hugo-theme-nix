@@ -1,0 +1,15 @@
+
+<h4 class="post-date">
+  <span class="left-icon far fa-calendar-alt"></span>
+  <span class="date-text">Posted on </span>{{ .Date.Format "Jan 2, 2006" }}
+</h4>
+<ul class="tags">
+  {{ range .Params.tags }}
+  <li>
+    <a class="tag no-select" data-chext-position data-chext-overflow style>
+      <span class="left-icon fas fa-tag"></span>
+      {{ . }}
+    </a>
+  </li>
+  {{ end }}
+</ul>

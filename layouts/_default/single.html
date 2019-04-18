@@ -10,7 +10,8 @@
     <div class="container wrapper">
       <div id="post-content-wrapper">
         <h1 id="post-big"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <h1 class="post-date">{{ .Date.Format "Jan 2, 2006 " }}</h1>
+        {{ partial "date-tags.html" . }}
+        <hr/>
         <div class="post-content">
           {{ .Content }}
         </div>
@@ -25,4 +26,4 @@
     </div>
     {{ partial "footer.html" . }}
   </body>
-
+</html>
